@@ -1,0 +1,127 @@
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - 
+Fuel columns created.
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - The 30 cars will be arrived
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 0
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 1
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 2
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 3
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 4
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 5
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 6
+2017-12-13 23:26:08 [Thread-2] DEBUG  model.CarQueue - No cars left.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [main] DEBUG  model.GasStation - New thread started. Column number: 7
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:08 [Thread-1] DEBUG  model.CarQueue - All cars arrived.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - 
+Fuel columns created.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - The 30 cars will be arrived
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 0
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 1
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 2
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 3
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 4
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 5
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 6
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [main] DEBUG  model.GasStation - New thread started. Column number: 7
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:30 [Thread-1] DEBUG  model.CarQueue - All cars arrived.
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - 
+Fuel columns created.
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - The 30 cars will be arrived
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 0
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 1
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 2
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 3
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 4
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 5
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 6
+2017-12-13 23:26:34 [main] DEBUG  model.GasStation - New thread started. Column number: 7
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - Cars arrived.
+2017-12-13 23:26:34 [Thread-1] DEBUG  model.CarQueue - All cars arrived.
