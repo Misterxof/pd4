@@ -15,7 +15,7 @@ public class GasStation {
     private int number;
     private CarQueue carQueue;
     public ArrayList<FFColumn> listColumns;
-    private Fuel fuel;
+    private Fuel fuel, fuel2;
     private int carsCount;
 
     /**
@@ -36,23 +36,26 @@ public class GasStation {
      */
     public void initialize(){
 
-        for(int i = 0; i < number; i++){
+        carQueue.addCountCars(carsCount);
 
+        for(int i = 0; i < number; i++){
             Random random = new Random();
             int x = random.nextInt(3);
+            int y = random.nextInt(3);
 
-            if(x == 1) fuel = fuel.SUPER;
-            else if(x == 2) fuel = fuel.PREMIUM;
+            if (x == 1) fuel = fuel.SUPER;
+            else if (x == 2) fuel = fuel.PREMIUM;
             else fuel = fuel.EXTRA;
 
-            FFColumn column = new FFColumn(15, i, carQueue, fuel);
+            if (y == 1) fuel2 = fuel.SUPER;
+            else if (y == 2) fuel2 = fuel.PREMIUM;
+            else fuel2 = fuel.EXTRA;
+
+            FFColumn column = new FFColumn(i, carQueue, fuel, fuel2);
             listColumns.add(column);
         }
 
         LOGGER.debug("\nFuel columns created.");
-
-        carQueue.addCountCars(carsCount);
-
         LOGGER.debug("The " + carsCount + " cars will be arrived");
     }
 
@@ -63,6 +66,7 @@ public class GasStation {
         for(FFColumn col : listColumns) {
             new Thread(col).start();
             LOGGER.debug("New thread started. Column number: " + col.number);
+            System.out.println(col.toString());
         }
     }
 

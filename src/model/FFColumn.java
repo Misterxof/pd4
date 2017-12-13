@@ -5,23 +5,22 @@ package model;
  */
 public class FFColumn implements Runnable {
 
-    private int maxCountFuel;
     public int number;
     private CarQueue carQueue;
-    private Fuel fuel;
+    private Fuel fuel, fuel2;
 
     /**
      * Constructor for class FFColumns
-     * @param maxCountFuel - max number of fuel
      * @param number - number of the fuel column
      * @param carQueue - cars queue
      * @param fuel - type of fuel
+     * @param fuel2 - type of fuel
      */
-    public FFColumn(int maxCountFuel, int number, CarQueue carQueue, Fuel fuel) {
-        this.maxCountFuel = maxCountFuel;
+    public FFColumn(int number, CarQueue carQueue, Fuel fuel, Fuel fuel2) {
         this.number = number;
         this.carQueue = carQueue;
         this.fuel = fuel;
+        this.fuel2 = fuel2;
     }
 
     /**
@@ -29,12 +28,11 @@ public class FFColumn implements Runnable {
      */
     @Override
     public void run() {
-        while (maxCountFuel > 0) {
-            carQueue.takeCar(number, fuel);
-            maxCountFuel--;
-
+        while (true) {
+            carQueue.takeCar(number, fuel, fuel2);
             try {
                 if(Thread.interrupted()){
+                    System.out.println("\nBREAK " + number +"");
                     break;
                 }
                 Thread.sleep(200);
@@ -42,22 +40,6 @@ public class FFColumn implements Runnable {
                 e.printStackTrace();
             }
         }
-    }
-
-    /**
-     * The method returns maxCountFuel
-     * @return maxCountFuel
-     */
-    public int getMaxCountFuel() {
-        return maxCountFuel;
-    }
-
-    /**
-     * The method set maxCountFuel
-     * @param maxCountFuel - max number of fuel
-     */
-    public void setMaxCountFuel(int maxCountFuel) {
-        this.maxCountFuel = maxCountFuel;
     }
 
     /**
@@ -102,6 +84,22 @@ public class FFColumn implements Runnable {
 
     /**
      * The method set fuel
+     * @param fuel2 - type of fuel
+     */
+    public void setFuel2(Fuel fuel2) {
+        this.fuel = fuel;
+    }
+
+    /**
+     * The method returns fuel
+     * @return fuel
+     */
+    public Fuel getFuel2() {
+        return fuel2;
+    }
+
+    /**
+     * The method set fuel
      * @param fuel - type of fuel
      */
     public void setFuel(Fuel fuel) {
@@ -114,6 +112,6 @@ public class FFColumn implements Runnable {
      */
     @Override
     public String toString(){
-        return "\nNumber: " + number + " Max fuel: " + maxCountFuel +  " Fuel: " + fuel + ".";
+        return "\nNumber: " + number +  " Fuel: " + fuel + ", " + fuel2;
     }
 }

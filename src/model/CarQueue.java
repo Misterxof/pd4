@@ -40,7 +40,7 @@ public class CarQueue {
 
                     if(queueCars.size() >= 1) {
                         queueCars.notify();
-                        LOGGER.debug("Cars arrived.");
+                        LOGGER.debug("Car arrived.");
                     }
 
                     System.out.println("\nAdd " + queueCars.get(0).toString() + ";");
@@ -57,11 +57,12 @@ public class CarQueue {
      * The method take car from ArrayList queueCars if fuel of car and fuel column are equals.
      * @param number - number of the fuel column
      * @param fuel - type of fuel
+     * @param fuel2 - type of fuel
      */
-    public void takeCar(int number, Fuel fuel) {
+    public void takeCar(int number, Fuel fuel, Fuel fuel2) {
 
         synchronized (queueCars){
-            int j = 0;
+            int k = 0;
 
             if(queueCars.size() == 0 && hasCars) {
                 try {
@@ -78,17 +79,17 @@ public class CarQueue {
             else {
                 for (int i = 0; i < queueCars.size(); i++) {
                     Car car = queueCars.get(i);
-                    j++;
-                    if (car.fuel.equals(fuel)) {
+                    k++;
+                    if (car.fuel.equals(fuel) || car.fuel.equals(fuel2)) {
                         queueCars.remove(i);
-                        j = 0;
-                        System.out.println("\nColumn " + number + " fuel " + fuel + " fueled " + car.toString() + ";");
+                        k = 0;
+                        System.out.println("\nColumn " + number + " fuel " + fuel + ", "  + fuel2
+                                + " fueled " + car.toString() + ";");
                         break;
-                    }
-                    else if (j == queueCars.size() && !hasCars) {
-                            Thread currentThread = Thread.currentThread();
-                            currentThread.interrupt();
-                            j = 0;
+                    } else if (k == queueCars.size() && !hasCars) {
+                        Thread currentThread = Thread.currentThread();
+                        currentThread.interrupt();
+                        k = 0;
                     }
                 }
             }
